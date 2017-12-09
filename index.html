@@ -4,21 +4,13 @@
 		<link rel="stylesheet" type="text/css" href="site_global.css?crc=444006867">
 		<link rel="stylesheet" type="text/css" href="index.css?crc=3962490924" id="pagesheet">
 		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+		<link rel="import" href="/intro.html">
 	</head>
 	<body data-whatinput="mouse">
 	  <div class="clearfix" id="page"><!-- column -->
 		<div class="rgba-background clearfix colelem" id="u143">
 			<script>
-				var myVar = 0;
-var tempDiv = $('body').append($('<div/>').attr('id', 'temp')).find('#temp');
-// Загрузили данные в этот блок
-tempDiv.load("/file.txt");
-// Записали ответ в переменную
-myVar = tempDiv.text();
-// Удалили промежуточный блок
-tempDiv.remove();
-
-console.log(myVar);
+				
 				var div = document.createElement('div');
 				div['className'] = "rgba-background colelem grpelem";
 				div.id = "u152";
