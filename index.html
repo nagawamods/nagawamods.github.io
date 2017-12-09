@@ -10,7 +10,9 @@
 	  <div class="clearfix" id="page"><!-- column -->
 		<div class="rgba-background clearfix colelem" id="u143">
 			<script>
-				
+				var link = document.querySelector('link[rel=import]');
+      var content = link.import.querySelector('#intro-dm');
+      document.body.appendChild(content.cloneNode(true));
 				var div = document.createElement('div');
 				div['className'] = "rgba-background colelem grpelem";
 				div.id = "u152";
